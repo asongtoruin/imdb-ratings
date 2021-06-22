@@ -1,0 +1,39 @@
+name: Redraw graph
+
+on:
+  push:
+      paths:
+        - '**.py'
+  schedule:
+    - cron:  '0 0 1 * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Get date
+        run: |
+          echo "CURR_DATE=$(date +%Y-%m-%d)" >> $GITHUB_ENV
+        
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          pip install -r requirements.txt
+
+      - name: Draw top shows graph
+        run: python top_tv.py
+
+      - name: Commit updated graph back to the repo
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: abottoruin
+          message: '${{ env.CURR_DATE }}: Automated graph update'
+          add: 'Graphs'
