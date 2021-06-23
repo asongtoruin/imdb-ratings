@@ -95,7 +95,9 @@ ax.set_title(
     pad=30, va='bottom'
 )
 ax.annotate(
-    f'As of {datetime.now().strftime("%Y-%m-%d")}', xy=(0.5, 1), 
+    f'As of {datetime.now().strftime("%Y-%m-%d")}, sorted by original air '
+    'date of first episode. For more information, visit '
+    'ruszkow.ski/graphs/2021-06-23-imdbs-highest-rated-tv-series', xy=(0.5, 1), 
     xycoords='axes fraction', xytext=(0, 25), textcoords='offset points', 
     va='top', ha='center',size='xx-large'
 )
