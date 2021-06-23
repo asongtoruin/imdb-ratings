@@ -35,5 +35,6 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           author_name: abottoruin
+          author_email: abottoruin@users.noreply.github.com
           message: '${{ env.CURR_DATE }}: Automated graph update'
           add: 'Graphs'
