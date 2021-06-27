@@ -2,6 +2,9 @@
 # - series_id: 2560140
 #   series_name: Attack on Titan
 
+- series_id: '1305826'
+  series_name: Adventure Time
+
 - series_id: '1844624'
   series_name: American Horror Story
 
@@ -11,11 +14,20 @@
 - series_id: '0407362'
   series_name: Battlestar Galactica
 
+- series_id: '1561755'
+  series_name: Bob's Burgers
+
+- series_id: '2467372'
+  series_name: Brooklyn Nine-Nine
+
 - series_id: '0118276'
   series_name: Buffy the Vampire Slayer
   
 - series_id: '1439629'
   series_name: Commmunity
+
+- series_id: '0436992'
+  series_name: Doctor Who (2005 onwards)
 
 - series_id: '0758745'
   series_name: Friday Night Lights
@@ -47,6 +59,9 @@
 - series_id: '1826940'
   series_name: New Girl
 
+- series_id: '1266020'
+  series_name: Parks and Recreation
+
 - series_id: '0387764'
   series_name: Peep Show
 
@@ -65,6 +80,9 @@
 - series_id: '0159206'
   series_name: Sex And The City
 
+- series_id: '0187664'
+  series_name: Spaced
+
 - series_id: '0106145'
   series_name: Star Trek Deep Space Nine
 
@@ -79,6 +97,9 @@
 
 - series_id: '2149175'
   series_name: The Americans
+
+- series_id: '4955642'
+  series_name: The Good Place
 
 - series_id: '0330251'
   series_name: The L Word
