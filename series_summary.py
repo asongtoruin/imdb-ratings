@@ -25,6 +25,12 @@ def get_episode_frame(client, show_id):
             episodes.append(e_dict)
 
     episode_frame = pd.DataFrame.from_records(episodes)
+
+    # Filter out -1's
+    episode_frame = episode_frame[
+        episode_frame['episode'].ge(0) & episode_frame['season'].ge(0)
+    ]
+
     episode_frame['Episode_ID'] = episode_frame['season'] * 100 + episode_frame['episode']
     episode_frame['episode'] = pd.Categorical(episode_frame['episode'])
 
