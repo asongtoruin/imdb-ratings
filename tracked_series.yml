@@ -1,5 +1,93 @@
+# AoT uses series and episode -1, which causes issues for processing
+# - series_id: 2560140
+#   series_name: Attack on Titan
+
+- series_id: '1844624'
+  series_name: American Horror Story
+
 - series_id: '0367279'
   series_name: Arrested Development
 
+- series_id: '0407362'
+  series_name: Battlestar Galactica
+
 - series_id: '0118276'
   series_name: Buffy the Vampire Slayer
+  
+- series_id: '1439629'
+  series_name: Commmunity
+
+- series_id: '0758745'
+  series_name: Friday Night Lights
+
+- series_id: '0149460'
+  series_name: Futurama
+
+- series_id: '0944947'
+  series_name: Game of Thrones
+
+- series_id: '0238784'
+  series_name: Gilmore Girls
+
+- series_id: '0397442'
+  series_name: Gossip Girl
+
+- series_id: '0413573'
+  series_name: Grey's Anatomy
+
+- series_id: '0472954'
+  series_name: It's Always Sunny in Philadelphia
+
+- series_id: '0411008'
+  series_name: Lost
+
+- series_id: '0804503'
+  series_name: Mad Men
+
+- series_id: '1826940'
+  series_name: New Girl
+
+- series_id: '0387764'
+  series_name: Peep Show
+
+- series_id: '1578873'
+  series_name: Pretty Little Liars
+
+- series_id: '1353056'
+  series_name: Ru Paul's Drag Race
+
+- series_id: '2301351'
+  series_name: Ru Paul's Drag Race All Stars
+
+- series_id: '3526078'
+  series_name: Schitt's Creek
+
+- series_id: '0159206'
+  series_name: Sex And The City
+
+- series_id: '0106145'
+  series_name: Star Trek Deep Space Nine
+
+- series_id: '0092455'
+  series_name: Star Trek The Next Generation
+
+- series_id: '0460681'
+  series_name: Supernatural
+
+- series_id: '4934214'
+  series_name: Taskmaster
+
+- series_id: '2149175'
+  series_name: The Americans
+
+- series_id: '0330251'
+  series_name: The L Word
+
+- series_id: '0386676'
+  series_name: The Office (US)
+
+- series_id: '0096697'
+  series_name: The Simpsons
+
+- series_id: '0112230'
+  series_name: Xena Warrior Princess
