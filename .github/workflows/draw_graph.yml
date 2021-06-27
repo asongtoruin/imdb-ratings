@@ -1,9 +1,9 @@
-name: Redraw graph
+name: Redraw top TV shows graph
 
 on:
   push:
       paths:
-        - '**.py'
+        - 'top_tv.py'
   schedule:
     - cron:  '0 0 1 * *'
 
