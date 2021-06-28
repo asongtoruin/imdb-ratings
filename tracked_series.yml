@@ -17,6 +17,9 @@
 - series_id: '1561755'
   series_name: Bob's Burgers
 
+- series_id: '0903747'
+  series_name: Breaking Bad
+
 - series_id: '2467372'
   series_name: Brooklyn Nine-Nine
 
@@ -25,6 +28,9 @@
   
 - series_id: '1439629'
   series_name: Commmunity
+
+- series_id: '5753856'
+  series_name: Dark
 
 - series_id: '0436992'
   series_name: Doctor Who (2005 onwards)
@@ -97,6 +103,9 @@
 
 - series_id: '2149175'
   series_name: The Americans
+
+- series_id: '3230854'
+  series_name: The Expanse
 
 - series_id: '4955642'
   series_name: The Good Place
