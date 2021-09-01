@@ -5,7 +5,7 @@ on:
       paths:
         - 'top_tv.py'
   schedule:
-    - cron:  '0 0 1 * *'
+    - cron:  '0 0 2 * *'
 
 jobs:
   build:
