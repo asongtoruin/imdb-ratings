@@ -1,7 +1,7 @@
 from datetime import datetime
 from pathlib import Path
 
-import imdb
+from imdb import Cinemagoer
 import matplotlib.dates as mdates
 from matplotlib.patches import Rectangle
 import matplotlib.pyplot as plt
@@ -207,7 +207,7 @@ if __name__ == '__main__':
     with open('tracked_series.yml', 'r') as yml_file:
         tracked_series = load(yml_file, Loader=Loader)
     
-    client = imdb.IMDb()
+    client = Cinemagoer()
 
     for series in tracked_series:
         try:

@@ -1,7 +1,7 @@
 from datetime import datetime
 from pathlib import Path
 
-import imdb
+from imdb import Cinemagoer
 import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -18,7 +18,7 @@ plt.rcParams['font.weight'] = 'regular'
 output_dir = Path('Graphs')
 output_dir.mkdir(exist_ok=True)
 
-client = imdb.IMDb()
+client = Cinemagoer()
 
 top = client.get_top250_tv()[:100]
 
