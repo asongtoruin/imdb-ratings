@@ -24,11 +24,14 @@ top = client.get_top250_tv()[:100]
 
 for show in top:
     print(show)
-    client.update(show, 'episodes')
+    try:
+        client.update(show, 'episodes')
+    except KeyError:
+        print(f'Could not get episodes for {show}')
 
 top_episodes = []
 for show in top:
-    for _, series in show['episodes'].items():
+    for _, series in show.get('episodes', dict()).items():
         for _, episode in series.items():
             e_dict = dict(episode)
             e_dict.pop('episode of', None)
